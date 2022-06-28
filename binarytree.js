@@ -22,5 +22,23 @@ class BinaryTreeNode {
     }
   }
 
-  findPerson(name) {}
+  findPerson(name) {
+    if(!this.root) return false
+      
+    let current = this.root
+    let found = false
+    while(current && !found){
+          if(value < current.value){
+            current = current.left
+           } else if(value > current.value){
+              current = current.right
+           } else {
+                found = current
+           } 
+          
+          }
+  
+      if(!found) return undefined;
+      return found
+  }
 }
