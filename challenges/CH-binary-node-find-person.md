@@ -1,5 +1,4 @@
-Binary Node Find Person
----
+## Binary Node Find Person
 
 ## Challenge
 
@@ -30,17 +29,16 @@ Keep in mind this is a recursive operation.
 
 ![Person Tree](person-nodes.png)
 
-
 ```js
 // "root" is the node at the root of the tree (the tree)
-let person = root.find('Nelson');
+let person = root.find("Nelson");
 // person looks like
-// { 
-//   name: 'Nelson', 
-//   phone: '555-1212', 
-//   address: '123 Main St' 
+// {
+//   name: 'Nelson',
+//   phone: '555-1212',
+//   address: '123 Main St'
 // }
 
-let person2 = root.find('Foo');
+let person2 = root.find("Foo");
 // person2 is null
 ```
